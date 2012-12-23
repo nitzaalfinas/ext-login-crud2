@@ -23,22 +23,8 @@ Ext.define('UserApp.controller.Login', {
     },
     
     masukUser: function(){
-	var me = this;
-	form.getForm().waitMsgTarget = form.up('loginForm').getEl();
-        form.getForm().submit({
-            params: {task: 'login'},
-            url: 'store/login.php',
-            waitMsg: 'Login...',
-            success:function(f, action) {
-		alert("Sukses");
-//                formUtama.up('utama').down('#tablogin').close();
-//                formUtama.up('utama').down('#laputama').close();
-//                formUtama.myMask = new Ext.LoadMask(formUtama.up('utama').getEl(), {msg:"Loading..."});
-//                formUtama.up('utama').aksesStore.loadPage(1);
-//                formUtama.myMask.show();
-                
-            }
-	});
+	alert("OK");
+           
     }
     
 });
